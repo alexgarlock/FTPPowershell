@@ -1,5 +1,5 @@
 ﻿#Begin FTP Section
-#downoad winSCPnet.dll first
+#download winSCPnet.dll first
 #Now let upload this to the FTP
 try
 {
