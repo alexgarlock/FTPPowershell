@@ -29,7 +29,7 @@ try
  
         $transferResult =
         #copy and past below if you wan to upload more files. First path is your files you want to upload. Second is the ftp locaiton. 
-            $session.PutFiles("C:\Users\alex\Documents\Powershell\FTP\Configs.zip", "/alex/HealthCheck/", $False, $transferOptions)
+            $session.PutFiles("C:\Users\alex\Documents\Powershell\FTP\Configs.zip", "/alex/", $False, $transferOptions)
         # Throw on any error
         $transferResult.Check()  
 
